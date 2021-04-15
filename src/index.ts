@@ -7,7 +7,7 @@ import './database'
 
 const app = express()
 
-app.use(cors({ origin: 'https://creatic.vercel.app/' }))
+app.use(cors())
 app.use(express.json())
 
 app.use(routes)
