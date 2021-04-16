@@ -1,10 +1,10 @@
 {
    "type": "postgres",
-   "host": "ec2-52-44-31-100.compute-1.amazonaws.com",
-   "port": 5432,
-   "username": "ambwdzgwuiefgo",
-   "password": "6ef8c3e58050495b6cb576fdf5b606f19d3232577fbda9bf082aa5758c0e6144",
+   "host": "postgres://ambwdzgwuiefgo:6ef8c3e58050495b6cb576fdf5b606f19d3232577fbda9bf082aa5758c0e6144@ec2-52-44-31-100.compute-1.amazonaws.com:5432/de8869m76shsjr",
    "database": "de8869m76shsjr",
+   "username": "ambwdzgwuiefgo",
+   "port": 5432,
+   "password": "6ef8c3e58050495b6cb576fdf5b606f19d3232577fbda9bf082aa5758c0e6144",
    "entities": [
     "./src/models/*.ts"
    ],
