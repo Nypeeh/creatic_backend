@@ -31,7 +31,7 @@ var Appointment = /** @class */ (function () {
         __metadata("design:type", User_1.default)
     ], Appointment.prototype, "provider", void 0);
     __decorate([
-        typeorm_1.Column('timestamp with time zone'),
+        typeorm_1.Column(),
         __metadata("design:type", Date)
     ], Appointment.prototype, "date", void 0);
     __decorate([

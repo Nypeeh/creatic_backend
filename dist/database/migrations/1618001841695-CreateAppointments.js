@@ -60,7 +60,7 @@ var CreateAppointments1618001841695 = /** @class */ (function () {
                                 },
                                 {
                                     name: 'date',
-                                    type: 'timestamp with time zone',
+                                    type: 'timestamp',
                                 },
                                 {
                                     name: 'created_at',
