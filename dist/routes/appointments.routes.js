@@ -52,7 +52,6 @@ appointmentsRouter.get('/', function (request, response) { return __awaiter(void
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                console.log(request.user);
                 appointmentsRepository = typeorm_1.getCustomRepository(AppointmentsRepository_1.default);
                 return [4 /*yield*/, appointmentsRepository.find()];
             case 1:
